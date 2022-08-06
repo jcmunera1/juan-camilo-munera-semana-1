@@ -1,0 +1,122 @@
+body {
+  background-color: rgb(18, 24, 34);
+}
+nav {
+  /* background-color: rgb(18, 24, 34); */
+}
+section {
+  width: 1260px;
+  float: left;
+}
+aside {
+  width: 221px;
+  height: 500px;
+  background: white;
+  float: left;
+}
+header {
+  background-color: rgb(42, 46, 57);
+  padding-top: 1px;
+}
+
+p {
+  font-family: Roboto;
+  color: rgb(209, 212, 220);
+  padding-left: 80px;
+}
+input {
+  height: 40;
+  margin-top: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  width: 300px;
+  border-radius: 15px;
+  border-width: 1px;
+  background-color: rgb(42, 46, 57);
+  border-style: solid;
+  font-size: 20;
+}
+.tradingview {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  height: 100px;
+  width: auto;
+}
+.header-breadcrumb {
+  font-size: 15px;
+  font-weight: lighter;
+  padding-top: 30px;
+}
+.header-title {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 40px;
+  font-weight: lighter;
+  line-height: 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: rgb(209, 212, 220);
+  padding-left: 10px;
+  padding-bottom: 10px;
+  height: 5px;
+}
+.header-subtitle {
+  display: flexbox;
+  vertical-align: bottom;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 0px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: rgb(149, 152, 161);
+  padding-left: 195px;
+}
+.header-price {
+  font-size: 50px;
+  font-weight: lighter;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.span-decimals {
+  color: rgb(52, 167, 140);
+}
+.span-headerprice {
+  font-size: 20px;
+}
+.span-changeprice {
+  color: rgb(242, 54, 70);
+  font-size: 20px;
+}
+.header-description {
+  font-size: 13px;
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.header-breadcrumb {
+  color: rgb(149, 152, 161);
+  margin-top: 0px;
+}
+.titulo-seguimiento {
+  font-size: 15px;
+  padding-left: 0%;
+}
+.btclogo {
+  height: 100px;
+  width: auto;
+  padding-left: 80px;
+  display: inline-block;
+  vertical-align: top;
+}
+.grafica {
+  width: 1260px;
+}
+.span-mercado {
+  color: rgb(52, 167, 140);
+}
