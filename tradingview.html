@@ -4,48 +4,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TradingView: siga todos los mercados</title>
+    <link rel="stylesheet" href="tradingview.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-    rel="stylesheet"
-  </head>
-  <style>
-    p {
-      font-family: Roboto;
-      text-align: left;
-    }
-    .header-title {
-      font-size: 50px;
-      font-weight: bold;
-      line-height: 10px;
-      margin-bottom: 30px;
-    }
-    .header-subtitle {
-      font-size: 20px;
-      font-weight: lighter;
-      line-height: 20px;
-      margin-bottom: 10px;
-    }
-    .header-price {
-      font-size: 50px;
-      font-weight: bold;
-      line-height: 20px;
-      margin-bottom: 10px;
-    }
-  </style>
-  <body>
-    <input
-      class="search-bar"
-      type="text"
-      placeholder="Search..."
-      autocomplete="off"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
     />
-    <p class="header-title">BTCUSDT</p>
-    <p class="header-subtitle">BITCOIN / TETHERUS</p>
-    <p class="header-price">23053.65</p>
-    <p class="header-description">
-      MERCADO ABIERTO (A PARTIR DEL 5 DE AGOSTO, 13:35 UTC)
-    </p>
+  </head>
+  <body>
+    <nav>
+      <img class="tradingview" src="imagenes/tradingviewlogo.png" />
+      <input
+        class="search-bar"
+        type="text"
+        placeholder="Buscar"
+        autocomplete="off"
+      />
+    </nav>
+    <section>
+      <header>
+        <p class="header-breadcrumb">
+          Mercados · Criptomonedas · Bitcoin · Tether
+        </p>
+        <img class="btclogo" src="imagenes/btclogo.png" />
+        <p class="header-title">BITCOIN / TETHERUS</p>
+        <p class="header-subtitle">BTCUSDT BINANCE</p>
+        <p class="header-price">
+          230<span class="span-decimals">53.65 </span
+          ><span class="span-headerprice">USDT</span
+          ><span class="span-changeprice"
+            >&nbsp;&nbsp;&nbsp; -100.01 (-0.43%)</span
+          >
+        </p>
+        <p class="header-description">
+          <span class="span-mercado"> MERCADO ABIERTO </span>(A PARTIR DEL 5 DE
+          AGOSTO, 13:35 UTC)
+        </p>
+      </header>
+
+      <p class="titulo-grafica">BTCUSDT Grafico</p>
+      <img class="grafica" src="imagenes/BTCUSDT.png" />
+    </section>
+
+    <!-- para comentar bloque de codigo, usar cmd+k+c, descomentar: cmd+k+u-->
+
+    <aside>
+      <p class="titulo-seguimiento">Lista de Seguimiento</p>
+    </aside>
   </body>
 </html>
