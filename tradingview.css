@@ -37,6 +37,7 @@ input {
   border-style: solid;
   font-size: 20;
 }
+
 .tradingview {
   display: inline-block;
   vertical-align: top;
@@ -119,4 +120,159 @@ input {
 }
 .span-mercado {
   color: rgb(52, 167, 140);
+}
+.titulo-grafica{
+  font-size: 30px;
+}
+.ideas{
+  font-size: 40px;
+}
+.articles{
+  display: flex;
+  flex-direction: row;
+}
+.tituloArt {
+padding-left: 30px;
+padding-top: 0px;
+font-size: 30px;
+
+}
+.subtituloArt1{
+  padding-left: 30px;
+  font-size: 20px;
+
+}
+.graficaalcista {
+  width: 500px;
+  padding-left: 25px;
+
+}
+.bodyArt1{
+  padding-left: 25px;
+  padding-top: 25px;
+  width: 500px;
+}
+.rocketbutton{
+  display: flex;
+  flex-direction: row;
+}
+.commentbutton{
+  display: flex;
+  flex-direction: row;
+}
+.sharebutton{
+  display: flex;
+  flex-direction: row;
+}
+.bookmarkbutton{
+  display: flex;
+  flex-direction: row;
+}
+.number1{
+  padding-left: 0px;
+}
+.rocket{
+ 
+  height: 20px;
+  background-color: rgb(18, 24, 34);
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-right: 0px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-color: rgb(149, 152, 161);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.number2{
+  padding-left: 0px;
+}
+.comment{
+   
+    height: 20px;
+    background-color: rgb(18, 24, 34);
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-right: 0px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-color: rgb(149, 152, 161);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+  }
+  .number3{
+    padding-left: 0px;
+  }
+  .share{
+      
+      height: 20px;
+      background-color: rgb(18, 24, 34);
+      cursor: pointer;
+      border-radius: 3px;
+      margin-left: 25px;
+      margin-top: 10px;
+      margin-right: 0px;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-color: rgb(149, 152, 161);
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 10px;
+    }
+
+  .number4{
+    padding-left: 0px;
+  }
+  .bookmark{
+   
+      height: 20px;
+      background-color: rgb(18, 24, 34);
+      cursor: pointer;
+      border-radius: 3px;
+      margin-left: 25px;
+      margin-top: 10px;
+      margin-right: 0px;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-color: rgb(149, 152, 161);
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 10px;
+    }
+  
+
+
+.art1{
+  width: 550px;
+  border-color: rgb(42, 46, 57);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+
+  height: 800px;
+  background-color: rgb(42, 46, 57);
+  margin-left: 80px;
+}
+
+.art2{
+  width: 550px;
+  height: 800px;
+  background-color: rgb(42, 46, 57);
+  margin-left: 80px;
+  
+
 }
