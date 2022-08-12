@@ -18,9 +18,13 @@ section {
   width: 200px;
 }
 header {
-  background-color: rgb(42, 46, 57);
+  background-color:rgb(30,34,45);
   padding-top: 1px;
   margin-top: 15px;
+  border-top: solid;
+  border-bottom: solid;
+  border-color:rgb(149, 152, 161); ;
+  border-width: 0.5px;
 }
 
 p {
@@ -121,6 +125,32 @@ input {
   font-weight: lighter;
   padding-top: 10px;
   padding-bottom: 20px;
+}
+.verMas{
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  color: rgb(40,98,255);
+  height: 50px;
+  background-color:rgb(30,34,45);
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-right: 0px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-color: rgb(40,98,255);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.verMas:hover{
+  background-color: rgb(40,98,255);
+  color: white;
 }
 .subtitulosHeader{
   font-size: 20px;
@@ -319,10 +349,16 @@ font-size: 30px;
   padding-bottom: 9px;
   padding-left: 16px;
   padding-right: 16px;
-  border-color: rgb(149, 152, 161);
-  border-style: solid;
+  border-style:hidden;
   border-width: 1px;
   border-radius: 10px;
+}
+.noticia:hover{
+  border-color: rgb(149, 152, 161);
+  border-style: hidden;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: rgb(30,34,45);
 }
 
 .descripcionBodyNoticia{
